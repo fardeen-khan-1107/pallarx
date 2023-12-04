@@ -1,0 +1,37 @@
+.section1{
+    margin-top: 100px;
+}
+.section1{
+    height: 100vh;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    perspective: 10px;
+}
+header{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform-style: preserve-3d;
+    z-index: -1;
+}
+.sub1,
+.sub2{
+    position: absolute;
+   top: 0px;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+} 
+.sub1{
+    transform: translateZ(-10px) scale(5);
+  
+ }
+.sub2{
+    transform: translateZ(-5px) scale(2);
+    width: 1093px;
+    top: 920px;
+}
+.section2{
+    margin-top: 25px;
+}
